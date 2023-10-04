@@ -1472,7 +1472,9 @@
 @media screen and (max-width: 479px) {
   .intro-parent {
     font-size: 14px;
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .logo-parent.push {
